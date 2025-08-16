@@ -1,6 +1,7 @@
-# Solar Forth — Forth with libuv timers and TCP
+# Solar Forth - Forth with libuv timers and TCP
 
 Overview
+
 - Goal: tiny and Forth-inspired with non-blocking timers and sockets using libuv.
 - Non-blocking: timers and TCP are driven by `uv:run` (libuv’s event loop).
 
@@ -10,9 +11,10 @@ Most Forth systems I have seen don't have a good concurrency story, which makes 
 
 This repository explores the idea of building a Forth system that is tightly integrated with LibUV.
 
-It is not an ANS Forth. 
+It is not an ANS Forth.
 
 Build
+
 - Prereq: libuv development headers installed (e.g., `libuv-dev`).
 - Build: `make`
 - Run REPL: `./solarforth`
